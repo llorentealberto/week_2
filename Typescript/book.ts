@@ -39,16 +39,16 @@
     public setEditorial(editorial:string){ this.editorial= editorial};
 
 
-   public toString():string{
+   public toString():void{
 
 
-        return ` title  - ${this.title}
+        console.log( ` title  - ${this.title}
         
          Numberof Pages - ${this.nPages}
             
         ISBN - ${this.isbn}
         Author ${this.author}
-        Editorial - ${this.editorial}` ;
+        Editorial - ${this.editorial}` );
         
     }
 

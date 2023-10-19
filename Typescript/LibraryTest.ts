@@ -9,5 +9,6 @@ let libro2=new Book("java" , 258 ,"156d6f5sd6f" , "jaime moreno " , " la que me 
 
 let library1= new Library([libro1,libro2], "jaen" , "adolfo");
 
-console.log(library1.tofuncione());
+library1.tofuncione();
 
+console

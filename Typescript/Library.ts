@@ -38,11 +38,46 @@ import { Book } from "./book";
 
     public tofuncione():void{
 
+        
 
-        for(let book of this.books){
-            console.log("book  " + this.books.indexOf(book) +   book.toString());
-            
+        for (let i = 0; i < this.books.length; i++){
+            if(i+1 <= this.books.length){
+
+                console.log(`book  ${i+1}`)
+                this.books[i].toString();
+
+            }
         }
+        
+    }
+
+
+    public getNumberOfBooks():number{
+
+        let nLibros =this.books.length;
+
+
+        return nLibros ;
+    }
+
+    public findByAuthor(author:string):Book[]{
+
+        let libros:Book[]=[];
+            for(let i=0 ; i<this.books.length ; i ++ ){ // bucle para recorrer todos los libros 
+
+                if(this.books[i].getAuthor()===author){ // si el libro qu eestamos recorriendo tiene el mismo autor que el parametro , lo añadimos a la variable que hemos creado 
+
+                    libros.push(this.books[i]);
+                }
+
+
+                
+            }
+
+            return libros ;
+
+
+        
     }
 
 }
