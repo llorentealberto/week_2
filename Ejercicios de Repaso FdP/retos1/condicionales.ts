@@ -77,7 +77,7 @@ function zodiac(day , month){
      }
 }
 
-zodiac(15 , "marzo");
+//zodiac(15 , "marzo");
 
 
 function continent(country){
@@ -115,10 +115,10 @@ function continent(country){
 }
 
 
-continent("carbonero");
+//continent("carbonero");
 
 
-function isEven(number){
+export function isEven(number){
     let par=number;
 
         if(par%2 == 0){
@@ -132,7 +132,7 @@ function isEven(number){
 
 }
 
-isEven(8);
+
 
 
 

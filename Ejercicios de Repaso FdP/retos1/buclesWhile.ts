@@ -58,7 +58,7 @@ function starWithM(myNames):boolean{
 
 }
 
-let pruebaBool=["aario" , "maria"];
+let pruebaBool=["mario" , "maria"];
 
 console.log(starWithM(pruebaBool));
 

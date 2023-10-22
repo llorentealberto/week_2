@@ -1,6 +1,6 @@
 
 
-let num
+let num ;
 
 function evenNumber(num){
 
@@ -77,7 +77,7 @@ let pruebaColores =["negro " , "verde" , "naranja" , "mmorado" , "naranja" , "am
 // La cabecera de la función tendrá el siguiente aspecto: function add(myWords)
 
 
-function add(myWords):number{
+export function add(myWords):number{
 let suma=0 ;
 
     for(let i=0 ;i<myWords.length; i ++){
@@ -91,8 +91,8 @@ let suma=0 ;
 
 }
 
-let pruebaPalabras= ["jefe" , " que" , "pasa"];
+// let pruebaPalabras= ["jefe" , " que" , "pasa"];
 
-let porFin= add(pruebaPalabras);
+// let porFin= add(pruebaPalabras);
 
-console.log( " el sumatorio de todas las letras de los ditintos string es : " + porFin);
+// console.log( " el sumatorio de todas las letras de los ditintos string es : " + porFin);
