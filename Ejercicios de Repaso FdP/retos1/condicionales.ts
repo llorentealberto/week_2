@@ -118,6 +118,21 @@ function continent(country){
 continent("carbonero");
 
 
+function isEven(number){
+    let par=number;
+
+        if(par%2 == 0){
+
+            console.log( "el numero " + par +" es par");
+        }else {
+            console.log( " el numero  "+ par + " es inpar ");
+            
+        }
+
+
+}
+
+isEven(8);
 
 
 
