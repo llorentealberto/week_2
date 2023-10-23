@@ -8,10 +8,11 @@ import { Mobile } from "./mobile";
 
    
 
-    constructor(mobiles:Mobile[]){
+    constructor(mobiles:Mobile[]  ){
 
         this.mobiles=mobiles;
-        this.totalPrice=this.totalPrice;
+        
+        this.totalPrice=this.totalPriceCalculation();
     }
 
     public getMobiles(): Mobile[] {
@@ -29,5 +30,20 @@ import { Mobile } from "./mobile";
     public setTotalPrice(totalPrice: number): void {
         this.totalPrice = totalPrice;
     }
+
+   private totalPriceCalculation():number{
+        let resultado=0 ;
+     for( let i=0 ; i<this.mobiles.length ; i++){
+
+        resultado += this.mobiles[i].getPrice() ;
+
+        
+
+                
+     }
+     return resultado ;
+   }
+
+
 
 }

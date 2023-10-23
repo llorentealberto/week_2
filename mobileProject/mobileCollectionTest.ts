@@ -18,14 +18,19 @@ let arrprueba=new MobileCollection(allMobiles);
 
  let col1=new MobileCollection(allMobiles);
 
- console.log(col1.getMobiles());
+ //console.log(col1.getMobiles());
 
- col1.setMobiles(allMobiles);
+ //col1.setMobiles(allMobiles);
 
 
- col1.setTotalPrice(30000);
+ //col1.setTotalPrice(30000);
 
  console.log(col1.getTotalPrice());
+
+ 
+ 
+ 
+
  
 
  

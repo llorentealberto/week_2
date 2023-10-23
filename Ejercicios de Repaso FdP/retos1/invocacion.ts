@@ -16,3 +16,4 @@ let sum3=add(aleatorio3);
 let total=sum1 + sum2 + sum3 ;
 
 console.log(isEven(total));
+
