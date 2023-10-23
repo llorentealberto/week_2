@@ -44,6 +44,18 @@ import { Mobile } from "./mobile";
      return resultado ;
    }
 
+   public printCollection():string{
+    let resultado;
+        for (let i=0 ;i<this.mobiles.length ;i++){
+                                                            // duda pirque no me reconoce el puto nombre !!!!!!!!!
+              resultado= `the characteristic of the mobile ${this.mobiles[i].getName()} : 
+              
+               ${this.mobiles.toString()}` ;
+              	
+        }
+        return resultado
+   }
+
 
 
 }

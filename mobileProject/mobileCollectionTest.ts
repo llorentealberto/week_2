@@ -27,6 +27,9 @@ let arrprueba=new MobileCollection(allMobiles);
 
  console.log(col1.getTotalPrice());
 
+ console.log(col1.printCollection());
+ 
+
  
  
  
